@@ -1,0 +1,219 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@media (max-width:400px) {
+    .about-me .first .paragraph {
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 600px) {
+    .header {
+        flex-direction: column;
+        height: auto;
+        align-items: center;
+        padding: 20px;
+    }
+
+    .half-header {
+        margin-left: 0;
+        padding-top: 10px;
+        text-align: center;
+    }
+
+    .img-div {
+        margin-top: 20px;
+        margin-left: 0;
+    }
+
+    .about-me {
+        flex-direction: column;
+        margin: 50px 20px;
+    }
+
+    .about-me .first, .about-me .second {
+        width: 100%;
+        margin-left: 0;
+        margin-top: 20px;
+    }
+
+    .about-me .second {
+        margin-top: 20px;
+    }
+
+    .skills {
+        margin: 50px 20px;
+    }
+
+    .skills .grid {
+        grid-template-columns: 1fr;
+    }
+
+    .Formation {
+        margin: 50px 20px;
+    }
+
+    .Formation .second {
+        margin-left: 20px;
+        width: auto;
+    }
+
+    .Formation .second > div {
+        height: auto;
+    }
+
+    .footer {
+        flex-direction: column;
+        height: auto;
+        padding: 20px;
+    }
+
+    .footer > div {
+        flex-direction: row;
+        width: auto;
+        align-items: center;
+    }
+
+    .footer > div > svg {
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+}
+
+@media (min-width: 601px) and (max-width: 900px) {
+    .header {
+        flex-direction: column;
+        height: auto;
+        align-items: center;
+        padding: 20px;
+    }
+
+    .half-header {
+        margin-left: 0;
+        padding-top: 10px;
+        text-align: center;
+    }
+
+    .img-div {
+        margin-top: 20px;
+        margin-left: 0;
+    }
+
+    .about-me {
+        flex-direction: column;
+        margin: 50px 20px;
+    }
+
+    .about-me .first, .about-me .second {
+        width: 100%;
+        margin-left: 0;
+        margin-top: 20px;
+    }
+
+    .about-me .second {
+        margin-top: 20px;
+    }
+
+    .skills {
+        margin: 50px 20px;
+    }
+
+    .skills .grid {
+        grid-template-columns: 1fr;
+    }
+
+    .Formation {
+        margin: 50px 20px;
+    }
+
+    .Formation .second {
+        margin-left: 20px;
+        width: auto;
+    }
+
+    .footer {
+        flex-direction: column;
+        height: auto;
+        padding: 20px;
+    }
+
+    .footer > div {
+        flex-direction: column;
+        width: auto;
+        align-items: center;
+    }
+}
+
+@media (min-width: 901px) and (max-width: 1200px) {
+    .about-me {
+        flex-direction: column;
+        margin: 150px 50px;
+    }
+
+    .about-me .first, .about-me .second {
+        width: 100%;
+        margin-left: 0;
+        margin-top: 20px;
+    }
+
+    .about-me .second {
+        margin-top: 20px;
+    }
+
+    .skills {
+        margin: 50px 50px;
+    }
+
+    .skills .grid {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .Formation {
+        margin: 50px 50px;
+    }
+
+    .Formation .second {
+        margin-left: 0;
+        width: auto;
+    }
+
+}
+
+@media (min-width: 1201px) {
+    .about-me {
+        flex-direction: row;
+        margin: 200px 171px;
+    }
+
+    .about-me .first, .about-me .second {
+        width: 50%;
+        margin-left: 0;
+    }
+
+    .skills {
+        margin: 100px 171px;
+    }
+
+    .skills .grid {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .Formation {
+        margin: 100px 171px;
+    }
+
+    .Formation .second {
+        margin-left: 87px;
+        width: auto;
+    }
+}
+
+@media (max-width:1201px) {
+    .Formation .vertical-line {
+        display: none;
+    }
+}
